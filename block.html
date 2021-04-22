@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<input type="text" name="texto" id=texto> <br><br>
+<button type="submit" id="send" onclick="send()">Enviar</button> <br><br>
+<label id="lbl1"></label>
+</body>
+<script type="text/javascript">
+	function send(){
+		var porId=document.getElementById("texto").value;
+		document.getElementById("lbl1").innerHTML = porId;
+	}
+</script>
+</html>

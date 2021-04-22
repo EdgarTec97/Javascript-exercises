@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Interview</title>
+	</head>
+	<body>
+
+	</body>
+	<script>
+		const arr =()=>{
+			var nombres = "Harry Trump ;Fred Barney; Helen Rigby ; Bill Abel ;Chris Hand ";
+			document.write(nombres + "<br>" + "<br>");
+			var expresionRegular = /\s*;\s*/;
+			var listaNombres = nombres.split(expresionRegular);
+			document.write(listaNombres);
+		}
+		arr();
+	</script>
+</html>
